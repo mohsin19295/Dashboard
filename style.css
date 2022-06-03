@@ -258,20 +258,19 @@ nav.close ~ .dashboard .top {
   outline: none;
   color: var(--text-color);
   font-weight: 400;
+  font-size: 18px;
 }
 
 .top .search-box i{
   position: absolute;
   left: 15px;
   font-size: 22px;
-  z-index: 10;
-  top: 50%;
-  transform: translateY(-50%);
-color: var(--black-light-color);
+  z-index: 1;
+  top: 25%;
+  color: var(--black-light-color);
 }
 
 .top img{
   width: 45px;
   border-radius: 50%;
 }
-
